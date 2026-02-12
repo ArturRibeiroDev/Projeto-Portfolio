@@ -1,0 +1,100 @@
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../assets/background/Background_Intro.png);
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.apresentation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.profile {
+  width: 96px;
+  height: 96px;
+}
+
+.hero-subtittle {
+  color: var(--gray-200);
+  font-family: normal 20px/120% var(--font-family-inconsolata);
+}
+
+.hero-tittle {
+  color: var(--gray-100);
+  font: 800 48px/120% var(--font-family-asap);
+}
+
+.hero-description {
+  color: var(--gray-300);
+  font: normal 14px/140% var(--font-family-maven);
+  text-align: center;
+}
+
+.linguagens {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding-block: 8px;
+  padding-inline: 16px;
+  background-color: var(--gray-400);
+  border-radius: 16px;
+  text-decoration: none;
+}
+
+.linguagens span {
+  width: 24px;
+  height: 24px;
+
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.linguagens p {
+  color: var(--gray-200);
+  font: normal 16px/140% var(--font-family-maven);
+}
+
+.tecnologias {
+  gap: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#github {
+  background-image: url(../assets/ícones-tec/GitHub.png);
+  width: 24px;
+}
+
+#html {
+  background-image: url(../assets/ícones-tec/HTML.png);
+  
+}
+
+#css {
+  background-image: url(../assets/ícones-tec/CSS.png);
+}
+
+#js {
+  background-image: url(../assets/ícones-tec/JavaScript.png);
+}
+
+#react {
+  background-image: url(../assets/ícones-tec/React.png);
+}
+
+#node {
+  background-image: url(../assets/ícones-tec/Vector.png);
+}
+
