@@ -6,3 +6,7 @@
   color: var(--purple);
   font: var(--subtittle);
 }
+
+.subtittle {
+  font: normal 20px/120% var(--font-family-inconsolata);
+}

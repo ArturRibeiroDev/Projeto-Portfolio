@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: center;
   background-image: url(../assets/background/Background_Intro.png);
-  min-height: 100vh;
+  min-height: 750px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -97,4 +97,27 @@
 #node {
   background-image: url(../assets/ícones-tec/Vector.png);
 }
+
+#setinha {
+  background-image: url(../assets/CaretDoubleDown.png);
+}
+
+.setinha span {
+  width: 32px;
+  height: 32px;
+
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.setinha {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 94px;
+  
+}
+
 
