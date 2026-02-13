@@ -10,3 +10,15 @@
 .subtittle {
   font: normal 20px/120% var(--font-family-inconsolata);
 }
+
+.tittle-sm {
+  font: 800 16px/120% var(--font-family-asap);
+}
+
+.text-sm {
+  font: normal 14px/140% var(--font-family-maven);
+}
+
+.text-md {
+  font: normal 16px/140% var(--font-family-maven);
+}

@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: center;
   background-image: url(../assets/background/Background_Intro.png);
-  min-height: 750px;
+  min-height: 100vh;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -20,22 +20,26 @@
 .profile {
   width: 96px;
   height: 96px;
+  margin-top: 120px;
+  margin-bottom: 56px;
 }
 
 .hero-subtittle {
   color: var(--gray-200);
   font-family: normal 20px/120% var(--font-family-inconsolata);
+  margin-bottom: 8px;
 }
 
 .hero-tittle {
   color: var(--gray-100);
   font: 800 48px/120% var(--font-family-asap);
+  margin-bottom: 16px;
 }
 
 .hero-description {
   color: var(--gray-300);
-  font: normal 14px/140% var(--font-family-maven);
   text-align: center;
+  margin-bottom: 80px;
 }
 
 .linguagens {
@@ -62,7 +66,6 @@
 
 .linguagens p {
   color: var(--gray-200);
-  font: normal 16px/140% var(--font-family-maven);
 }
 
 .tecnologias {
@@ -70,6 +73,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  max-width: 754px;
+  max-height: 40px;
 }
 
 #github {

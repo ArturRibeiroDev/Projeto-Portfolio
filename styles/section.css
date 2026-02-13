@@ -8,17 +8,18 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin-top: -60px;
+  padding-top: 130px;
 }
 
 .header h2 {
   color: var(--gray-100);
   font: 800 24px/120% var(--font-family-asap);
+  margin-top: 8px;
 }
 
 .projetos-grid {
   display: grid;
-  grid-template-columns: repeat(3, 320px);
+  grid-template-columns: repeat(3, 340px);
   gap: 24px;
   padding-top: 56px;
   justify-content: center;
@@ -28,12 +29,87 @@
 .card-projects {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  align-items: flex-start;
   background-color: var(--gray-400);
-  padding: 12px;
+  padding-block: 14px;
+  padding-inline: 8px;
   border-radius: 16px;
   img {
     width: 306px;
     border-radius: 8px;
+    align-self: center;
+  }
+    h3 {
+    color: var(--gray-100);
+ }
+    p {
+  color: var(--gray-200);
+ }
+
+}
+
+.texto {
+  margin: 20px 0 8px 12px;
+  max-width: auto;
+}
+
+.services {
+  background-color: var(--gray-600);
+  height: 520px;
+}
+
+#pc {
+  background-image: url(../assets/services/Devices.png);
+}
+
+#api {
+  background-image: url(../assets/services/HardDrives.png);
+}
+
+#devops {
+  background-image: url(../assets/services/Infinity.png);
+}
+
+.projetos-service {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 56px;
+  margin-bottom: 120px;
+  gap: 24px;
+}
+
+.card-services {
+  background-color: var(--gray-600);
+  border: 1px solid var(--gray-500);
+  border-radius: 8px;
+  padding: 20px;
+  height: 155px;
+  width: 280px;
+
+  span {
+  width: 48px;
+  height: 48px;
+
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+  h3 {
+    color: var(--gray-100);
+    margin-top: 20px;
+    margin-bottom: 8px;
+  }
+
+  p {
+    color: var(--gray-200);
   }
 }
+
+.texto-services {
+  padding-bottom: 20px;
+  width: 240px;
+}
+
