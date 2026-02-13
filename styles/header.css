@@ -52,9 +52,8 @@
   background-color: var(--gray-400);
   border-radius: 16px;
   text-decoration: none;
-}
 
-.linguagens span {
+  span {
   width: 24px;
   height: 24px;
 
@@ -63,9 +62,9 @@
   background-repeat: no-repeat;
   background-position: center;
 }
-
-.linguagens p {
+  p {
   color: var(--gray-200);
+}
 }
 
 .tecnologias {
