@@ -199,6 +199,11 @@
   &:hover {
     border: 1px solid var(--blue);
   }
+
+  li {
+    list-style: none;
+  }
+    
 }
 
 .column-contats {
