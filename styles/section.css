@@ -112,6 +112,11 @@
   p {
     color: var(--gray-200);
   }
+
+  &:hover {
+    transition: 0.3s ease;
+    transform: translateY(-4px);
+  }
 }
 
 .texto-services {
@@ -198,12 +203,9 @@
 
   &:hover {
     border: 1px solid var(--blue);
+    transition: 0.3s ease;
+    transform: translateY(-4px);
   }
-
-  li {
-    list-style: none;
-  }
-    
 }
 
 .column-contats {
