@@ -65,6 +65,10 @@
   p {
   color: var(--gray-200);
 }
+  &:hover {
+    transform: translateY(-4px);
+    transition: 0.3s;
+  }
 }
 
 .tecnologias {
