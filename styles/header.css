@@ -66,8 +66,8 @@
   color: var(--gray-200);
 }
   &:hover {
+    transition: 0.3s ease;
     transform: translateY(-4px);
-    transition: 0.3s;
   }
 }
 
